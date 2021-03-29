@@ -45,6 +45,14 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 ---- End table content ----*/
 
 /*---- parallax backgroud Start ----*/
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 .parallax {   
 	background-size: cover !important; 
 	-webkit-background-size: cover !important; 

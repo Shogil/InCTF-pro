@@ -272,7 +272,20 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
   word-break: break-word;
   color: #7b7b7b;
 }
-
+.imgts {
+    
+    padding: 5px;
+    width: 150px;
+  }
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
 .imgra {
     border-radius: 10px;
   }

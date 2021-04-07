@@ -7,7 +7,11 @@ Design and Developed by:
 NOTE: This is typography stylesheet of template, This file contains typography of the Template.
 
 */
-
+@media only screen and (max-width: 767px) {
+    body {
+        text-align: center;
+    }
+}
 
 @media only screen and (max-width:1199px) {
 	/*-------------- Margin top ------------*/ 

@@ -562,6 +562,11 @@ body{
     padding: 5px;
     width: 150px;
   }
+  .imgts2 {
+    
+    padding: 5px;
+    width: 60px;
+  }
 .ml2 {
     font-weight: 900;
     font-size: 3.5em;
@@ -863,6 +868,9 @@ body{
 
 /*---------------action-box starts----------------------*/
 /*-- common action box style*/
+.center {
+    text-align: center;
+}
 .actionbox {
     position: relative;
 }

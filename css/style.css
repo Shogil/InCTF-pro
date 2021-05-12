@@ -52,6 +52,11 @@ body{
     /*-------------------
     -----News Styles-----
     ---------------------*/    
+    .section-padding30 {
+        padding-top: 150px;
+        padding-bottom: 140px;
+    }
+    
     .timeline{
         position:relative;
         margin-bottom:100px;
@@ -70,17 +75,7 @@ body{
         z-index:-1;
     } 
     
-    .timeline:after{
-        display:block;
-        content:"";
-        position:absolute;
-        width:50%;
-        height:100px;
-        left:1px;
-        bottom:-105px;
-        border-right:1px dashed #5CC9DF;
-        z-index:-1;
-    } 
+    
     
     .timeline .date-title{
         text-align:center;
@@ -868,6 +863,10 @@ body{
 
 /*---------------action-box starts----------------------*/
 /*-- common action box style*/
+.mb-30{margin-bottom:30px}
+.single-logo img{
+    width:100%
+}
 .center {
     text-align: center;
 }

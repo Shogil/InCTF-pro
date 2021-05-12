@@ -45,6 +45,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 ---- End table content ----*/
 
 /*---- parallax backgroud Start ----*/
+
 body{
     background:#ddd;
     }
@@ -52,10 +53,9 @@ body{
     /*-------------------
     -----News Styles-----
     ---------------------*/    
-    .section-padding30 {
-        padding-top: 150px;
-        padding-bottom: 140px;
-    }
+    .illustration {
+        width: 100%;
+      }
     
     .timeline{
         position:relative;

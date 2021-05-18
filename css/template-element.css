@@ -472,7 +472,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 }
 /*--- cs-button start ---*/
 .cs-button { 
-	background: #00ABC9; 
+	background: #000000; 
 	padding: 10px 20px; 
 	font-size: 0.928rem; 
 	letter-spacing: 1px; 

@@ -2,21 +2,17 @@
 <html lang="en">
     <head>
         <link href="images/brand/logo.png" rel="">
-        <!-- Required meta tags -->
-    <meta charset="utf-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Amrita InCTF: India’s First Ethical Hacking contest.
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Amrita InCTF: India’s First Ethical Hacking contest.
 Capture the Flag contest. India’s first hacking competition. Play CTFs, win prizes and get placed with our sponsors.">
     <meta name="keywords" content="cyber security, CTF, Capture The Flag, network security, wiki, writeups, top, India, academic, trainings, mentoring, reversing, crypto, exploitation, web, forensics, hardware, android, team"> 
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 
-    
+        <meta name="author" content="">
+        <link rel="icon" href="#">
         
         <title>Amrita InCTF</title>
-        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-
-
 
         <!-- plugins -->
         <link rel="stylesheet" type="text/css" href="css/plugin.css" />
@@ -36,10 +32,6 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
         <!-- templete element -->
         <link rel="stylesheet" type="text/css" href="css/template-element.css" />        
 
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Recursive&family=Rubik&display=swap" rel="stylesheet"> 
-        
         <!-- template CSS -->
         <link href="css/style.css" rel="stylesheet">
 		
@@ -48,18 +40,6 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
 
          <!-- custom CSS -->
         <link href="css/custom.css" rel="stylesheet">
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-
-        <style>
-            body {
-  font-family: Tahoma, sans-serif;
-}
-            </style>
-
-
-
     </head>
 
     <body>
@@ -71,10 +51,10 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
 				<div class="row justify-content-end">
 				  <div class="col-lg-6 col-md-6 col-12 xs-mb-10">
 					<div class="topbar-call text-center text-md-left">
-					  <ul class="list-inline d-md-flex d-inline-block">
-						<li> inctf@am.amrita.edu</li>
-						 <li><a href="tel:(+91)7558996557"> <span>+(91) 04762804525 </span> </a> </li>
-					  </ul>
+                        <ul class="list-inline d-md-flex d-inline-block">
+                            <li> inctf@am.amrita.edu</li>
+                             <li><a href="tel:(+91)7558996557"> <span>+(91) 04762804525 </span> </a> </li>
+                          </ul>
 					</div>
 				  </div>
 				  <div class="col-lg-6 col-md-6 col-12">
@@ -97,20 +77,20 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
 					<a href="index.html" class="brand">
 						<img src="images/brand/logo.png" alt=""/>
 					</a>
-					
+					<button class="toggle-bar">
+						<span class="ti-menu"></span>
+					</button>	
 				</div>	
 				<ul class="menu">
 					<li class="scrollspy active"><a href="#home">Home</a></li>
-					<li><a href="Gallery.html">Gallery</a></li>
+					
 					<li class="scrollspy"><a href="#about">About</a></li>
 					<li class="scrollspy"><a href="#team">Speakers</a></li>
-					<li class="scrollspy"><a href="https://wiki.bi0s.in/">Resources</a>
-                    <li class="scrollspy"><a href="#contact">Contact</a></li>
-                    </li>
-					
-                    
+                    <li><a href="Gallery.html">Gallery</a></li>
+					<li class="scrollspy"><a href="https://wiki.bi0s.in/">Resources</a></li>
+					<li class="scrollspy"><a href="#blog">Events</a></li>
+					<li class="scrollspy"><a href="#contact">Contact</a></li>
 				</ul>
-                
 				
 				
 			</nav>
@@ -119,16 +99,16 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
 		<!--Slider Here-->
 		<section id="home" class="section dart-no-padding-tb">
 			<div id="revo_main_wrapper" class="rev_slider_wrapper fullwidthbanner-container">
-				<div id="rev_slider_251_115" class="rev_slider fullwidthabanner"  data-version="5.4.1">
+				<div id="rev_slider_251_115" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
 					<ul>
 						<!-- SLIDE 1 -->
-						<li  >
+						<li data-index="rs-01" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500" class="rev_gradient">
 
 							<!-- MAIN IMAGE -->
-							<img class="imgrk" src="images/home-pages/blurimage50.jpg" >
+							<img src="images/home-pages/blurimage50.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10"  data-no-retina>
 							<!-- LAYER NR. 1 -->
 							<div class="tp-caption tp-resizeme text-white"
-								 data-x="['left','left','center','center']" data-hoffset="['0','0','0','0']"
+								 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
 								 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
 								 data-fontsize="['55','55','40','40']"
 								 data-lineheight="['55','55','40','40']"
@@ -137,12 +117,10 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
 								 data-textalign="['center','center','center','center']"
 								 data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
 								 data-start="1200" data-splitin="none" data-splitout="none">
-                                 
-                                 <strong> India's Flagship Cybersecurity <br> Contest 11th Edition 2021</strong>
+                                 India's flagship cyber security contest
 							</div>
-                            
 							<div class="tp-caption tp-resizeme whitecolor"
-								 data-x="['left','left','center','center']" data-hoffset="['0','0','0','0']"
+								 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
 								 data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','50']"
 								 data-whitespace="nowrap" data-responsive_offset="on"
 								 data-width="['none','none','none','none']" data-type="text"
@@ -152,10 +130,10 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
 								 data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
 								 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
 								 data-start="1500" data-splitin="none" data-splitout="none">
-								<p style="line-height: 23px; font-weight: 400; font-size: 18px; color: #cdfdfb;"></p>
+								<p style="line-height: 23px; font-weight: 400; font-size: 18px; color: #ffffff;">11th edition 2021 </p>
 							</div>
-							<div class="tp-caption "
-								 data-x="['left','left','center','center']" data-hoffset="['0','0','0','0']"
+							<div class="tp-caption tp-resizeme"
+								 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
 								 data-y="['middle','middle','middle','middle']" data-voffset="['120','120','120','120']"
 								 data-width="200" data-height="none"
 								 data-whitespace="normal" data-type="button"
@@ -169,22 +147,64 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
 							</div>
 						</li>
 
-						
+						<!-- SLIDE 2  -->
+						<li data-index="rs-02" data-transition="fade" data-slotamount="default" data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500">
+
+							<!-- MAIN IMAGE -->
+							<img src="images/home-pages/2741461.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption tp-resizeme text-white"
+								 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+								 data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+								 data-fontsize="['55','55','40','40']"
+								 data-lineheight="['55','55','40','40']"
+								 data-whitespace="nowrap" data-responsive_offset="on"
+								 data-width="['none','none','none','none']" data-type="text"
+								 data-textalign="['center','center','center','center']"
+								 data-transform_idle="o:1;"
+								 data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+								 data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+								 data-start="1000" data-splitin="none" data-splitout="none">
+								 India's flagship cyber security contest
+							</div>
+							<div class="tp-caption tp-resizeme whitecolor"
+								 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+								 data-y="['middle','middle','middle','middle']" data-voffset="['50','50','50','50']"
+								 data-whitespace="nowrap" data-responsive_offset="on"
+								 data-width="['none','none','none','none']" data-type="text"
+								 data-textalign="['center','center','center','center']" data-fontsize="['24','24','20','20']"
+								 data-transform_idle="o:1;"
+								 data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
+								 data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+								 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+								 data-start="1500" data-splitin="none" data-splitout="none">
+								<p style="line-height: 23px; font-weight: 400; font-size: 18px; color: #ffffff;">11th edition 2021</p>
+							</div>
+							<div class="tp-caption tp-resizeme"
+								 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+								 data-y="['middle','middle','middle','middle']" data-voffset="['120','120','120','120']"
+								 data-width="200" data-height="none"
+								 data-whitespace="normal" data-type="button"
+								 data-actions='' data-responsive_offset="on"
+								 data-textAlign="['center','center','center','center']"
+								 data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]"
+								 data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]"
+								 data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;"}]'
+								 style=" box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
+								<a href="#." class="cs-button large">Register Now</a>
+							</div>
+						</li>
 					</ul>
 				</div>
 			</div>
 		</section>
-        
+		
         <section id="features" class="section section-ptb-120 bg-light-gray sm-pb-50 sm-pt-50">
             <div class="container w3-container w3-center w3-animate-bottom" >
                 <div class="col-12 d-flex p-0 mb-4">
                     <h2 class="px-md-3 px-1 py-2 rounded-right mt-4 mb-2 d-md-flex d-inline-block align-items-center  text-light text-uppercase shadow font-weight-bold text-center mb-0" style="background-color:#818820">
-                     
-		 
-                
-                
-                <img class="imgts2" src="https://img.icons8.com/doodle/48/000000/finish-flag.png"/>
-                     Let's get started</h2>
+                        <img class=" imgts2"  src="images/icons8-thinking-face-48.png" alt="">
+                      How does it Work?</h2>
                     </div>
                 
                 <div class="row pt-20">
@@ -227,7 +247,7 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
                 </div>
             </div>
         </section>
-
+		
         <section id="about" class="section-ptb-120 sm-pb-50 sm-pt-50 dark-bg bg-overlay-black-70" data-jarallax='{"speed": 0.4}' style="background-image: url(images/home-pages/slider-2.jpg);">
             <div class="container">
                <div class="row">
@@ -236,125 +256,136 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
                           <h6 class="sub-heading">About us</h6>
                           <h1 class="heading mb-10 fs-40 f-w3">Amrita InCTF</h1>
                           <p class="width-55 xs-width-100 mx-auto mb-20"><b>InCTF was started to generate awareness and interest in cybersecurity in the student community More importantly, equipping students with the skills to pursue careers in this sector, and provide hands-on training and exposure to industry experts Team bi0s was the first Indian team to compete in international cybersecurity contests, back in 2007 We look to bring the same passion and interest to the whole country, allowing them to take on the challenges of the rapidly changing digital world.</b></p>
+                          <a class="cs-button large" href="#"> Read More ></a>
                       </div> 
                   </div>
               </div>
             </div>
-        </section>
+        </section>		
 		
-    <section >
-    <div class="container bootstrap snippets bootdey">
-    <section id="news" class="white-bg padding-top-bottom">
-        <div class="container bootstrap snippets bootdey">
-            <div class="timeline">
-                <div class="date-title">
-                    <span>Roadmap</span>
+        <section class="section ">
+            <div class="container bootstrap snippets bootdey">
+            <section id="news" class="white-bg padding-top-bottom">
+                <div class="container bootstrap snippets bootdey">
+                    <div class="timeline">
+                        <div class="date-title">
+                            <span>Roadmap</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 news-item">
+                                <div class="news-content">
+                                    <div class="date">
+                                        <p></p>
+                                        <small>JUN</small>
+                                    </div>
+                                    <h2 class="news-title">Registration - Team registration</h2>
+                                    
+                                    <p>-Maximum team size 5 and minimum 2.</p>
+                                   
+                                </div>
+                            </div>
+        
+                            <div class="col-sm-6 news-item right">
+                                <div class="news-content">
+                                    <div class="date">
+                                        <p></p>
+                                        <small>JUN</small>
+                                        <p>-</p>
+                                        <small>OCT</small>
+                                    </div>
+                                    <h2 class="news-title">Learning round - Learn the basics</h2>
+                                    
+                                    <p>-We have a free wiki and youtube channel. Start learning now. <a class="read-more" href="https://wiki.bi0s.in/">bi0s wiki</a></p>
+                                    <p>-Live doubt clearing sessions on weekends</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-sm-6 news-item">
+                                <div class="news-content">
+                                    <div class="date">
+                                        <p></p>
+                                        <small>SEP</small>
+                                        <p>-</p>
+                                        <small>OCT</small>
+                                    </div>
+                                    <h2 class="news-title">Mock contest - Practice makes one perfect</h2>
+                                    
+                                    <p>-We will conduct few mock contests for you to get some practice</p>
+                                    <p>-Write up will be published for the mock contest</p>
+        
+                                </div>
+                            </div>
+        
+                            <div class="col-sm-6 news-item right">
+                                <div class="news-content">
+                                    <div class="date">
+                                        <p></p>
+                                        <small>NOV</small>
+                                        
+                                    </div>
+                                    <h2 class="news-title">Online Qualifier - Compete online</h2>
+                                    <p>-Top 40 teams will be selected or the finals which is packed with highlevel learning.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 news-item">
+                                <div class="news-content">
+                                    <div class="date">
+                                        <p></p>
+                                        <small>NOV</small>
+                                        <p>-</p>
+                                        <small>DEC</small>
+                                    </div>
+                                    <h2 class="news-title">Online trainings - Learn from Tech Gurus</h2>
+                                    <p>-Industry level free and paid trainings</p>
+                                    <p>-Talks from Industry experts</p>
+        
+                                </div>
+                            </div>
+        
+                            <div class="col-sm-6 news-item right">
+                                <div class="news-content">
+                                    <div class="date">
+                                        <p></p>
+                                        <small>DEC</small>
+                                    </div>
+                                    <h2 class="news-title">Onsite Conference - Get looped in the Knowledge Pool</h2>
+                                    <p>-3 Day onsite conference with exposure to hacker village</p>
+                                    <p>-Final CTF contest and Prize distribution</p>
+                                    <p>-Industry hiring and internships</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6 news-item">
-                        <div class="news-content">
-                            <div class="date">
-                                <p></p>
-                                <small>JUN</small>
-                            </div>
-                            <h2 class="news-title">Registration - Team registration</h2>
-                            
-                            <p>-Maximum team size 5 and minimum 2.</p>
-                           
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 news-item right">
-                        <div class="news-content">
-                            <div class="date">
-                                <p></p>
-                                <small>JUN</small>
-                                <p>-</p>
-                                <small>OCT</small>
-                            </div>
-                            <h2 class="news-title">Learning round - Learn the basics</h2>
-                            
-                            <p>-We have a free wiki and youtube channel. Start learning now. <a class="read-more" href="https://wiki.bi0s.in/">bi0s wiki</a></p>
-                            <p>-Live doubt clearing sessions on weekends</p>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-6 news-item">
-                        <div class="news-content">
-                            <div class="date">
-                                <p></p>
-                                <small>SEP</small>
-                                <p>-</p>
-                                <small>OCT</small>
-                            </div>
-                            <h2 class="news-title">Mock contest - Practice makes one perfect</h2>
-                            
-                            <p>-We will conduct few mock contests for you to get some practice</p>
-                            <p>-Write up will be published for the mock contest</p>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 news-item right">
-                        <div class="news-content">
-                            <div class="date">
-                                <p></p>
-                                <small>NOV</small>
-                                
-                            </div>
-                            <h2 class="news-title">Online Qualifier - Compete online</h2>
-                            <p>-Top 40 teams will be selected or the finals which is packed with highlevel learning.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 news-item">
-                        <div class="news-content">
-                            <div class="date">
-                                <p></p>
-                                <small>NOV</small>
-                                <p>-</p>
-                                <small>DEC</small>
-                            </div>
-                            <h2 class="news-title">Online trainings - Learn from Tech Gurus</h2>
-                            <p>-Industry level free and paid trainings</p>
-                            <p>-Talks from Industry experts</p>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 news-item right">
-                        <div class="news-content">
-                            <div class="date">
-                                <p></p>
-                                <small>DEC</small>
-                            </div>
-                            <h2 class="news-title">Onsite Conference - Get looped in the Knowledge Pool</h2>
-                            <p>-3 Day onsite conference with exposure to hacker village</p>
-                            <p>-Final CTF contest and Prize distribution</p>
-                            <p>-Industry hiring and internships</p>
-                        </div>
-                    </div>
-                </div>
+            </section>
             </div>
-        </div>
-    </section>
-    </div>
-</section>
-       
-		
-		
-		
+        </section>
+		<!-- SLIDE 2  
+		<section class="section-ptb-120 sm-pb-50 sm-pt-50 dark-bg bg-overlay-black-70" data-jarallax='{"speed": 0.4}' style="background-image: url(images/bg-img.jpg);">
+          <div class="container">
+			 <div class="row">
+				<div class="col-12">
+					<div class="section-heading text-center">
+						<h6 class="sub-heading">We Have An Excellent Video</h6>
+						<h1 class="heading mb-10 fs-40 f-w3">Watch Our Story</h1>
+						<p class="width-55 xs-width-100 mx-auto mb-20">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Perspiciatis unde omnis iste natus error sit.</p>
+						<a class="cs-button cs-button-border large txt-white" href="#"> Watch Video&nbsp; <i class="fa fa-play"></i></a>
+					</div>
+				</div>
+			</div>
+          </div>
+      </section>		
+        -->
+				
 
+				
 
-
-
-
-
-		<section id="team" >
+		<section id="team" class="section ">
             <div class="container">
                  <div class="row">
                     <div class="col-12">
@@ -376,7 +407,7 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
                                     <span class="suva-gray fs-14">Adviser and Investor</span>
                                 </div>
                                 <div class="team-contact">
-                                    <span class="suva-gray fs-14 f-w4 my-0"> Talk Title: Cyberoam Startup And Experiences <br><br></span>
+                                    <span class="suva-gray fs-14 f-w4 my-0"> Talk Title: Cyberoam Startup And Experiences</span>
                                 </div>
                                 
                             </div>
@@ -413,7 +444,7 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
                                         TheBugBounty</span>
                                 </div>
                                 <div class="team-contact">
-                                    <span class="suva-gray fs-14 f-w4 my-0"> Talk Title: Getting Started With Bug Hunting <br><br> </span>
+                                    <span class="suva-gray fs-14 f-w4 my-0"> Talk Title: Getting Started With Bug Hunting</span>
                                    
                                 
                             </div>
@@ -451,13 +482,15 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
                                 <span class="suva-gray fs-14">Security Consultant</span>
                             </div>
                             <div class="team-contact">
-                                <span class="suva-gray fs-14 f-w4 my-0"> Talk Title: Intel L1 Terminal Fault Vulnerability <br><br></span>
+                                <span class="suva-gray fs-14 f-w4 my-0"> Talk Title: Intel L1 Terminal Fault Vulnerability</span>
                                
                             </div>
                             
                         </div>
                     </div>
                 </div>
+                
+
                 <div class="col-lg-4 col-md-4">
                     <div class="team team-hover bg-team xs-mb-30">
                         <div class="team-photo">
@@ -465,7 +498,7 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
                         </div>
                         <div class="team-description bg-white">
                             <div class="team-info">
-                                <h3 class="theme"><a href="team-single.html"> Reno Robert</a></h3>
+                                <h3 class="theme"><a href="team-single.html"> Ajith Ravindran</a></h3>
                                 <span class="suva-gray fs-14">Senior Security Engineer</span>
                             </div>
                             <div class="team-contact">
@@ -476,13 +509,11 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </section>
-		
-			
-	  
-<section class="section section-ptb-120 bg-light-gray sm-pb-50 sm-pt-50">
+				
+		<section class="section section-ptb-120 sm-pb-50 sm-pt-50 bg-light-gray">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -504,13 +535,8 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
                 </div>
             </div>
         </section>
- 
 		
-				
-		
-		
-            
-        <section id="blog" >
+        <section id="blog" class="section section-ptb-120 sm-pb-50 sm-pt-50">
             <div class="container">
                  <div class="row">
                     <div class="col-12">
@@ -591,7 +617,7 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
                 </div>
             </div>
         </section>
-				
+        
 		
         <section class="section">
             <div class="container-fluid">
@@ -602,9 +628,6 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
                 </div>
             </div>
         </section>
-		
-		
-		
 		<section class="section-ptb-120 sm-pb-50 sm-pt-50 dark-bg bg-overlay-black-70" data-jarallax='{"speed": 0.4}' style="background-image: url(images/home-pages/bios.jpeg);">
             <div class="container">
                <div class="row">
@@ -622,17 +645,6 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
               </div>
             </div>
         </section>	
-		
-
-
-
-
-   
-
-
-
-
-
 		<footer class="footer footer-2 pt-50 bg-black">
             <div class="container">
                  <div class="row">
@@ -657,12 +669,12 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
                         <div class="col-lg-6 col-md-6 text-left text-md-right">
                             <div class="social-icons color-hover mt-10">
                                 <ul> 
-                                        <li><a href="https://www.facebook.com/InCTF/"><span class="ti-facebook"></span></a></li>
-                                        <li><a href="https://www.instagram.com/inctf.in/"><span class="ti-instagram"></span></a></li>
-                                        <li><a href="https://twitter.com/inctf"><span class="ti-twitter-alt"></span></a></li>
-                                        <li><a href="https://www.linkedin.com/company/teambi0s/"><span class="ti-linkedin"></span></a></li>
-                                        <li><a href="#"><span class="ti-github"></span></a></li>
-                                        <li><a href="#"><span class="ti-youtube"></span></a></li>
+                                    <li><a href="https://www.facebook.com/InCTF/"><span class="ti-facebook"></span></a></li>
+                                    <li><a href="https://www.instagram.com/inctf.in/"><span class="ti-instagram"></span></a></li>
+                                    <li><a href="https://twitter.com/inctf"><span class="ti-twitter-alt"></span></a></li>
+                                    <li><a href="https://www.linkedin.com/company/teambi0s/"><span class="ti-linkedin"></span></a></li>
+                                    <li><a href="#"><span class="ti-github"></span></a></li>
+                                    <li><a href="#"><span class="ti-youtube"></span></a></li>
                                 </ul>
                             </div>
                         </div>

@@ -43,6 +43,16 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 
 ---- End table content ----*/
+body {
+    font-size: 100%
+  }
+  
+  /* Headers */
+  
+  h1 {
+    font-size: 6.2em;
+    font-weight: 500;
+  }
 h1, h2, h3, h4, h5, h6, .tp-mask-wrap, .entry-title {
     font-family: 'Recursive', serif;
 }

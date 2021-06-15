@@ -15,19 +15,19 @@ NOTE: This is color stylesheet of Color Scheme.
 /* selection */
 
 *::-moz-selection {
-    background: #00ABC9;
+    background: #f94340;
     color: #fff;
     text-shadow: none;
 }
 
 ::-moz-selection {
-    background: #00ABC9;
+    background: #f94340;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #00ABC9;
+    background: #f94340;
     color: #fff;
     text-shadow: none;
 }
@@ -125,7 +125,7 @@ mark,
 .pagination li a:hover,
 .pagination li span:focus,
 .pagination li span:hover {
-    background: #00ABC9;
+    background: #f94340;
 }
 
 .popup-video-image a i,
@@ -154,7 +154,7 @@ mark,
 .service ul li a.active,
 .play-video-section.black-button .play-video:hover,
 .portfolio-item .portfolio-overlay a.tag {
-    background: #00ABC9;
+    background: #f94340;
 }
 
 
@@ -230,7 +230,7 @@ section:focus .title-effect:nth-child(even),
 .blog-entry .entry-meta ul li i,
 ul.list.theme-color li i,
 .testimonials.text-white.clean .author-info {
-    color: #00ABC9;
+    color: #f94340;
 }
 
 .portfolio-item.simple-effect .portfolio-overlay a:hover,
@@ -284,7 +284,7 @@ header.one-page.light .navbar-inverse .navbar-nav>li>a:hover,
 .addresss-info.text-black i,
 ul.menu-sidebar li a:hover,
 ul.menu-sidebar li.active a {
-    color: #00ABC9;
+    color: #f94340;
 }
 
 
@@ -347,7 +347,7 @@ ul.menu-sidebar li.active a {
 .service-blog.left ul,
 .personal-typer-banner h2,
 .personal-typer-banner b {
-    border-color: #00ABC9;
+    border-color: #f94340;
 }
 
 .border-memu .navbar-inverse .navbar-nav>.active>a,
@@ -399,20 +399,20 @@ ul.menu-sidebar li.active a {
 .spa-border:before,
 .team.team-list,
 .marketing-banner .slider-content {
-    border-color: #00ABC9;
+    border-color: #f94340;
 }
 
 
 /*border left border right*/
 
 .blog .timeline li:hover .timeline-panel:before {
-    border-left-color: #00ABC9;
-    border-right-color: #00ABC9;
+    border-left-color: #f94340;
+    border-right-color: #f94340;
 }
 
 ul.menu-sidebar li a:hover,
 ul.menu-sidebar li.active a {
-    border-left-color: #00ABC9;
+    border-left-color: #f94340;
 }
 
 
@@ -421,7 +421,7 @@ ul.menu-sidebar li.active a {
 *************************/
 
 .rev-color {
-    color: #00ABC9 !important;
+    color: #f94340 !important;
 }
 
 .rev-button,
@@ -430,7 +430,7 @@ ul.menu-sidebar li.active a {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link,
 .bg-primary {
-    background: #00ABC9 !important;
+    background: #f94340 !important;
 }
 
 .rev-button:hover,
@@ -440,16 +440,16 @@ ul.menu-sidebar li.active a {
 }
 
 .rev-bg {
-    background: #00ABC9 !important;
+    background: #f94340 !important;
 }
 
 .border-primary {
-    border-color: #00ABC9 !important;
+    border-color: #f94340 !important;
 }
 
 .progress-bar-new,
 .progress-bar {
-    background-color: #00ABC9;
+    background-color: #f94340;
 }
 
 

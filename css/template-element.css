@@ -39,13 +39,13 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
     color: #efefef;
 } 
 .theme{
-	color: #00ABC9;
+	color: #f94340;
 }
 .black{
     color: #000;
 }
 .bg-theme{
-	background-color: #00ABC9;
+	background-color: #f94340;
 }
 .bg-white{
 	background-color: #fff;
@@ -483,7 +483,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 	display: inline-block; 
 	border-radius: 3px; 
 	text-align: center; 
-	border:2px solid #00ABC9; 
+	border:2px solid #f94340; 
 	cursor: pointer; 
 }
 .cs-button + .cs-button {
@@ -507,9 +507,9 @@ button {
 	border:2px solid #353535;
 }
 .cs-button.black:hover,  .cs-button.black.active,  .cs-button.black:focus  {
-     background:  #00ABC9;
+     background:  #f94340;
      color:  #ffffff;
-     border-color:  #00ABC9;
+     border-color:  #f94340;
  }
 
 .cs-button.gray  {
@@ -519,14 +519,14 @@ button {
  }
 
 .cs-button.gray:hover,  .cs-button.gray.active,  .cs-button.gray:focus  {
-     background:  #00ABC9;
+     background:  #f94340;
      color:  #ffffff;
-     border-color:  #00ABC9;
+     border-color:  #f94340;
 }
 
 .cs-button.white  {
      background:  #fff;
-     color:  #00ABC9;
+     color:  #f94340;
      border-color:  #ffffff;
  }
 
@@ -538,14 +538,14 @@ button {
 
 .cs-button.cs-button-border  {
      background:  transparent;
-     border:  2px solid #00ABC9;
+     border:  2px solid #f94340;
      color:  #323232;
  }
 
 .cs-button.cs-button-border:hover,  .cs-button.cs-button-border:focus  {
-     background:  #00ABC9;
+     background:  #f94340;
      color:  #ffffff;
-     border-color:  #00ABC9;
+     border-color:  #f94340;
  }
 
 .cs-button.cs-button-border.gray  {
@@ -555,9 +555,9 @@ button {
  }
 
 .cs-button.cs-button-border.gray:hover,  .cs-button.cs-button-border.gray:focus  {
-     background:  #00ABC9;
+     background:  #f94340;
      color:  #ffffff;
-     border-color:  #00ABC9;
+     border-color:  #f94340;
  }
 
 .cs-button.cs-button-border.white  {
@@ -568,7 +568,7 @@ button {
 
 .cs-button.cs-button-border.white:hover,  .cs-button.cs-button-border.white:focus, .cs-button.cs-button-border.white:hover i,  .cs-button.cs-button-border.white:focus i {
      background:  #fff;
-     color:  #00ABC9 !important;
+     color:  #f94340 !important;
      border-color:  #fff;
  }
 
@@ -592,7 +592,7 @@ button {
 .cs-button.arrow  {
      background:  transparent;
      border:  none;
-     color:  #00ABC9;
+     color:  #f94340;
      padding:  0;
      font-weight:  600;
  }
@@ -614,7 +614,7 @@ button {
 .cs-button.icon-color {
     background:  none;
     border:  none;
-    color:  #00ABC9;
+    color:  #f94340;
     padding:  0;
 }
 .cs-button.icon-color:hover {
@@ -623,7 +623,7 @@ button {
  }
 
 .cs-button.icon-color i {
-    border:  1px solid #00ABC9;
+    border:  1px solid #f94340;
     border-radius:  50%;
     height:  22px;
     width:  22px;
@@ -647,7 +647,7 @@ button {
 }
 .cs-button.icon-color.white:hover i  {
      background:  #ffffff;
-     color:  #00ABC9;
+     color:  #f94340;
      border-color:  #ffffff;
  }
 
@@ -702,23 +702,23 @@ button {
      margin-left:  0;
  }
 .btn-primary{
-	background:  #00ABC9;
-	border-color:  #00ABC9;
+	background:  #f94340;
+	border-color:  #f94340;
 }
 .btn-primary:hover{
 	background:  #000000;
 	border-color:  #000000;
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus,  .btn-primary:not(:disabled):not(.disabled):active:focus,  .show>.btn-primary.dropdown-toggle:focus  {
-     background:  #00ABC9;
-     border-color:  #00ABC9;
+     background:  #f94340;
+     border-color:  #f94340;
      box-shadow:  0 0 0 0.2rem rgba(132, 186, 63, 0.5);
  }
 
 .btn-primary.focus,  .btn-primary:focus  {
      box-shadow:  0 0 0 0.2rem rgba(132, 186, 63, 0.5);
-     background:  #00ABC9;
-     border-color:  #00ABC9;
+     background:  #f94340;
+     border-color:  #f94340;
  }
 .border-1-gray{
     border: 1px solid #e5e5e5;
@@ -1001,7 +1001,7 @@ ul.list-custom li:after {
 .pagination li span:focus,
 .pagination li span:hover {
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
-    background-color: #00ABC9;
+    background-color: #f94340;
     color: #ffffff;
 }
 
@@ -1011,7 +1011,7 @@ ul.list-custom li:after {
 .pagination > .active > span,
 .pagination > .active > span:focus,
 .pagination > .active > span:hover {
-    background-color: #00ABC9;
+    background-color: #f94340;
     color: #ffffff;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 }
@@ -1321,7 +1321,7 @@ ul.list-custom li:after {
 
 /*icon */
 .social-icons.color-icon a {
-    color: #00ABC9;
+    color: #f94340;
 }
 .social-icons.color-icon .social-rss a {
     color: #faa33d;
@@ -1476,7 +1476,7 @@ ul.list-custom li:after {
     line-height: 60px;
     width: 60px;
     height: 60px;
-    background: #00ABC9;
+    background: #f94340;
     display: inline-block;
     margin: 0 auto;
     border-radius: 50%;
@@ -1504,7 +1504,7 @@ ul.list-custom li:after {
     -ms-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     background-color: #ffffff;
-    color:  #00ABC9;
+    color:  #f94340;
 }
 .popup-video a i:hover:after {
     -webkit-animation: sonarEffect 1.3s ease-out 75ms;

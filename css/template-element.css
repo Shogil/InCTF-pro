@@ -483,7 +483,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 	display: inline-block; 
 	border-radius: 3px; 
 	text-align: center; 
-	border:2px solid #f94340; 
+	border:2px solid #015fff; 
 	cursor: pointer; 
 }
 .cs-button + .cs-button {

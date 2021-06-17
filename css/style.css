@@ -6631,6 +6631,16 @@ textarea.form-control {
 	text-transform: uppercase;
     font-size: 1rem;
 } 
+.section-heading .sub-heading1 { 
+	letter-spacing: 1px; 
+	font-weight: 300; 
+	margin-bottom: 10px; 
+	text-transform: uppercase;
+    font-size: 1rem;
+}
+/*********Destruction********/
+
+/**********end destrction*****/
 .section-heading { 
 	margin-bottom: 0px; 
 	position: relative; 
@@ -8885,6 +8895,7 @@ ul.list-edit li:after {
 .basic-3 {
 	padding-top: 6.875rem;
 	padding-bottom: 6.125rem;
+    animation-name: example;
 }
 
 .basic-3 h2 {
@@ -8901,8 +8912,16 @@ ul.list-edit li:after {
 }
 
 .basic-3 .video-wrapper {
+    
 	position: relative;
+    
 }
+@keyframes example {
+    0%   {background-color: green;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: #6F303A;}
+  }
 
 /* Video Play Button */
 .basic-3 .video-play-button {

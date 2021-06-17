@@ -255,6 +255,7 @@ NOTE: This is typography stylesheet of template, This file contains typography o
 
 
 
+
 @media(min-width:576px) and (max-width:767px) {
     .navbar-collapse {
         background: #070117;

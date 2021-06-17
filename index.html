@@ -46,6 +46,52 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
 
          <!-- custom CSS -->
         <link href="css/custom.css" rel="stylesheet">
+
+
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              margin: 0;
+              font-family: Arial;
+              font-size: 17px;
+            }
+            
+            #myVideo {
+              position: fixed;
+              right: 0;
+              bottom: 0;
+              min-width: 100%; 
+              min-height: 100%;
+            }
+            
+            .content {
+              position: fixed;
+              bottom: 0;
+              background: rgba(0, 0, 0, 0.5);
+              color: #f1f1f1;
+              width: 100%;
+              padding: 20px;
+            }
+            
+            #myBtn {
+              width: 200px;
+              font-size: 18px;
+              padding: 10px;
+              border: none;
+              background: #000;
+              color: #fff;
+              cursor: pointer;
+            }
+            
+            #myBtn:hover {
+              background: #ddd;
+              color: black;
+            }
+            </style>
+
     </head>
 
     <body>
@@ -274,7 +320,80 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
         </section>
 		
 
-		
+		 <!-- COUNT AREA START -->
+         <section id="count">
+            <div class="container zindex">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 text-center">
+                        <div class="count-item">
+                            <div class="count-icon">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </div>
+                            <div class="count-text">
+                                <h3>Registrations</h3>
+                                <p class="counter" data-counterup-time="1500" data-counterup-delay="30" data-counterup-beginat="100">25000+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 text-center">
+                        <div class="count-item">
+                            <div class="count-icon">
+                                <i class="fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <div class="count-text">
+                                <h3>No. of colleges </h3>
+                                <p class="counter" data-counterup-time="1500" data-counterup-delay="30" data-counterup-beginat="100">1000+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 text-center">
+                        <div class="count-item">
+                            <div class="count-icon">
+                                <i class="fa fa-coffee" aria-hidden="true"></i>
+                            </div>
+                            <div class="count-text">
+                                <h3>No. of schools</h3>
+                                <p class="counter" data-counterup-time="1500" data-counterup-delay="30" data-counterup-beginat="100">600+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 text-center">
+                        <div class="count-item">
+                            <div class="count-icon">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="count-text">
+                                <h3>Onsite attendees</h3>
+                                <p class="counter" data-counterup-time="1500" data-counterup-delay="30" data-counterup-beginat="100">300</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- COUNT AREA END -->
+
+
+       
+		<section id="about" class="section">
+            <div class="container-fluid">
+                <div class="row align-items-center no-gutters">
+                    <div class="col-lg-6 col-12">
+                        <div class="section-heading text-center sm-pb-50 sm-pt-50">
+                            <h2 class="heading fs-40 mb-10 f-w3">Creative Work</h2>
+                            
+                            <p class="width-70 mx-auto">We capture your happy moments and share them with you here, InCTF 2019 Footage</p>
+                            
+                            <button class="cs-button mt-20">Read More &gt;</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <iframe width="650" height="315" src="https://www.youtube.com/embed/Dx0qpoYTcl4?start=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    
+                </div> 
+             </div>
+        </section>	
 
 
         <!-- Video -->
@@ -488,6 +607,13 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
             </div>
         </section>
 		
+
+
+
+
+
+
+
         <section class="section">
             <div class="container-fluid">
                 <div class="row">
@@ -554,7 +680,20 @@ Capture the Flag contest. India’s first hacking competition. Play CTFs, win pr
         </footer>
 		
     </body>
-    
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+        
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
